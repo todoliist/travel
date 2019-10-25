@@ -1,0 +1,321 @@
+{
+	"ret": true,
+	"data": {
+		"hotCities": [
+			{
+				"id": 1,
+				"name": "Calgary"
+			},
+			{
+				"id": 56,
+				"name": "Vancouver"
+			},
+			{
+				"id": 57,
+				"name": "Victoria"
+			},
+			{
+				"id": 15,
+				"name": "Edmonton"
+			},
+			{
+				"id": 30,
+				"name": "Kelowna"
+			},
+			{
+				"id": 38,
+				"name": "Nanaimo"
+			}
+		],
+		"cities": {
+			"A": [
+				{
+					"id": 1,
+					"name": "Airdrie"
+				},
+				{
+					"id": 2,
+					"name": "Abbotsford"
+				},
+				{
+					"id": 3,
+					"name": "Armstrong"
+				}
+			],
+			"B": [
+				{
+					"id": 4,
+					"name": "Balzac"
+				},
+				{
+					"id": 5,
+					"name": "Brooks"
+				}
+			],
+			"C": [
+				{
+					"id": 6,
+					"name": "Calgary"
+				},
+				{
+					"id": 7,
+					"name": "Camrose"
+				},
+				{
+					"id": 8,
+					"name": "Chestermere"
+				},
+				{
+					"id": 9,
+					"name": "Cold Lake"
+				},
+				{
+					"id": 10,
+					"name": "Coquitlam"
+				},
+				{
+					"id": 11,
+					"name": "Courtenay"
+				}
+			],
+			"D": [
+				{
+					"id": 12,
+					"name": "Delta"
+				},
+				{
+					"id": 13,
+					"name": "Duncan"
+				},
+				{
+					"id": 14,
+					"name": "Dawson creek"
+				}
+			],
+			"E": [
+				{
+					"id": 15,
+					"name": "Edmonton"
+				},
+				{
+					"id": 16,
+					"name": "Enderby"
+				},
+				{
+					"id": 17,
+					"name": "Estevan"
+				}
+			],
+			"F": [
+				{
+					"id": 18,
+					"name": "Fort Saskatchewan"
+				},
+				{
+					"id": 19,
+					"name": "Fernie"
+				},
+				{
+					"id": 20,
+					"name": "Fort St. John"
+				}
+			],
+			"G": [
+				{
+					"id": 21,
+					"name": "Grande Prairie"
+				},
+				{
+					"id": 22,
+					"name": "Grand Forks"
+				},
+				{
+					"id": 23,
+					"name": "Greenwood"
+				}
+			],
+			"H": [
+				{
+					"id": 24,
+					"name": "Humboldt"
+				}
+			],
+			"I": [
+				{
+					"id": 25,
+					"name": "Iddesleigh"
+				}
+			],
+			"J": [
+				{
+					"id": 26,
+					"name": "Iddesleigh"
+				},
+				{
+					"id": 27,
+					"name": "Jarvie"
+				},
+				{
+					"id": 28,
+					"name": "Joffre"
+				}
+			],
+			"K": [
+				{
+					"id": 29,
+					"name": "Kamloops"
+				},
+				{
+					"id": 30,
+					"name": "Kelowna"
+				},
+				{
+					"id": 31,
+					"name": "Kananaskis Village"
+				}
+			],
+			"L": [
+				{
+					"id": 32,
+					"name": "Lethbridge"
+				},
+				{
+					"id": 33,
+					"name": "Lloydminster"
+				},
+				{
+					"id": 34,
+					"name": "Lake Louise"
+				}
+			],
+			"M": [
+				{
+					"id": 35,
+					"name": "Medicine Hat"
+				},
+				{
+					"id": 36,
+					"name": "Malakwa"
+				},
+				{
+					"id": 37,
+					"name": "Manning Park"
+				}
+			],
+			"N": [
+				{
+					"id": 38,
+					"name": "Nanaimo"
+				},
+				{
+					"id": 39,
+					"name": "Nisku"
+				},
+				{
+					"id": 40,
+					"name": "Nelson"
+				},
+				{
+					"id": 41,
+					"name": "North Vancouver"
+				}
+			],
+			"O": [
+				{
+					"id": 42,
+					"name": "Okotoks"
+				},
+				{
+					"id": 43,
+					"name": "Okanagan Valley"
+				}
+			],
+			"P": [
+				{
+					"id": 44,
+					"name": "Peace River"
+				},
+				{
+					"id": 45,
+					"name": "Parksville"
+				},
+				{
+					"id": 46,
+					"name": "Pincher Creek"
+				}
+			],
+			"Q": [
+				{
+					"id": 47,
+					"name": "Quadra Island"
+				}
+			],
+			"R": [
+				{
+					"id": 48,
+					"name": "Radium"
+				},
+				{
+					"id": 49,
+					"name": "Red Deer"
+				},
+				{
+					"id": 50,
+					"name": "Revelstoke"
+				}
+			],
+			"S": [
+				{
+					"id": 51,
+					"name": "Sherwood Park"
+				},
+				{
+					"id": 52,
+					"name": "Slave Lake"
+				}
+			],
+			"T": [
+				{
+					"id": 53,
+					"name": "Tofino"
+				},
+				{
+					"id": 54,
+					"name": "Tsawwassen"
+				}
+			],
+			"U": [
+				{
+					"id": 55,
+					"name": "Waterton Park"
+				}
+			],
+			"V": [
+				{
+					"id": 56,
+					"name": "Vancouver"
+				},
+				{
+					"id": 57,
+					"name": "Victoria"
+				}
+			],
+			"W": [
+				{
+					"id": 58,
+					"name": "Whitecourt"
+				}
+			],
+			"Y": [
+				{
+					"id": 59,
+					"name": "White Rock"
+				},
+				{
+					"id": 60,
+					"name": "Whistler"
+				}
+			]
+		}
+	}
+}

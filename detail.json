@@ -1,0 +1,83 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": [
+      "Whistler 1 day ski",
+      "Vancouver Aquarium",
+      "Leavenworth 1 day trip",
+      "Vancouver+victoria+whistler trip", 
+      "Victoria 1 day trip"
+    ],
+    "bannerImg": [
+      "https://s3.cn-north-1.amazonaws.com.cn/preview.westartravel.com/bannerImage/home_onsale_3bec39cbd205450591c51d9f012379a8.jpg",
+      "https://s3.cn-north-1.amazonaws.com.cn/preview.westartravel.com/bannerImage/home_onsale_6ad43b2c50c64868b3b1ec9648b30057.jpg",
+      "https://s3.cn-north-1.amazonaws.com.cn/preview.westartravel.com/bannerImage/home_onsale_4afce94a58a54821a73da3ee2b3655d5.jpg",
+      "https://s3.cn-north-1.amazonaws.com.cn/preview.westartravel.com/bannerImage/home_onsale_856196d1a2ce4446aad2e88d9677a437.jpg",
+      "https://s3.cn-north-1.amazonaws.com.cn/preview.westartravel.com/bannerImage/home_onsale_0803a5ace8de4d949eec1d27408bab2e.jpg"
+    ],
+    "gallaryImgs": [
+      [
+        "https://images.unsplash.com/photo-1517660895948-131a6d6c55d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1507534192483-69914c0692d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1520529986992-d4ce365fcfc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+      ],
+      [
+        "https://images.unsplash.com/photo-1520301255226-bf5f144451c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1537858320050-8d60433d1600?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1491933367339-d869a4dcc137?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+      ],
+      [
+        "https://images.unsplash.com/photo-1508705152659-209db714f16f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1506367539484-ee7dd0409aa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1446572484939-ce15b646d497?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+      ],
+      [
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1519181258491-889c2b001485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1476977251893-330046eb5ec8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+      ],
+      [
+        "https://images.unsplash.com/photo-1558449709-9215b1ec91de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1561304278-1933fb2e475f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552280184-74afb26965c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+      ]
+    ],
+    "categoryList": [
+      {
+        "title": "Whistler ski day pass",
+        "children": [
+          {
+            "title": " adult tickets-full day pass",
+            "children": [
+              {
+                "title": "family  pass (hot deal)"
+              }
+            ]
+          },
+          {
+            "title": "adult tickets-3 day pass"
+          }
+        ]
+      },
+      {
+        "title": "hot deal",
+        "children": [
+          {
+            "title": "children day pass",
+            "children": [
+              {
+                "title": "senior day pass"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "night pass"
+      },
+      {
+        "title": "weekday pass"
+      }
+    ]
+  }
+}
