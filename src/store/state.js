@@ -1,4 +1,4 @@
-let defaultCity = 'Calgary'
+let defaultCity = 'Vancouver'
 // try catch incase browser closed localstorage function
 try {
   if (localStorage.city) {

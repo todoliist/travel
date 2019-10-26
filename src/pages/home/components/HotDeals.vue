@@ -4,7 +4,7 @@
     <ul>
       <router-link
         tag="li"
-        :to="'/detail/'+item.id"
+        :to="'/'+city+'/'+item.id"
         class="item border-bottom"
         v-for="item of list"
         :key="item.id"
@@ -24,8 +24,9 @@
 export default {
   name: "HotDeals",
   props: {
-    list: Array
-  }
+    list: Array,
+    city: String
+  },
 };
 </script>
 
@@ -38,9 +39,8 @@ export default {
   line-height: 0.8rem;
   background: #eee;
   text-indent: 0.2rem;
-  font-weight :$fontBold;
+  font-weight: $fontBold;
   font-style: $fontStyle;
-
 }
 
 .item {

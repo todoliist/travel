@@ -3,8 +3,8 @@
     <home-header></home-header>
     <home-swiper :list="swiperList"></home-swiper>
     <home-icons :list="iconsList"></home-icons>
-    <hot-deals :list="hotList"></hot-deals>
-    <winter-recommend :list="weekendList"></winter-recommend>
+    <hot-deals :list="hotList" :city="city"></hot-deals>
+    <winter-recommend :list="recommendList"></winter-recommend>
   </div>
 </template>
 <script>
@@ -31,24 +31,29 @@ export default {
       swiperList: [],
       iconsList: [],
       hotList: [],
-      weekendList: []
+      recommendList: []
     };
   },
   methods: {
     getHomeInfo() {
       // using api instead of static/mock, because for production env is api/..., so we go to config/index.js, config in proxytable, use word api to replace static/mock
       // this means any request for json file under api folder will be forward to local static/mock folder
+      // but query string doesn't work in this situation, dont know why
       axios.get("/api/index.json?city=" + this.city).then(this.getHomeInfoSucc);
     },
     getHomeInfoSucc(res) {
       // get data from response
-      res = res.data;
-      if (res.ret && res.data) {
-        const data = res.data;
+      var json = require("../../../static/mock/index.json");
+      // find right element data based on the city
+      var index = json.findIndex(obj => obj.city==this.city);
+      res = res.data[index];
+
+      if (res.info.ret && res.info.data) {
+        const data = res.info.data;
         this.swiperList = data.swiperList;
         this.iconsList = data.iconsList;
         this.hotList = data.hotList;
-        this.weekendList = data.weekendList;
+        this.recommendList = data.recommendList;
       }
     }
   },

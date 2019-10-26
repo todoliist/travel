@@ -38,7 +38,7 @@ export default {
 }
 
 .item-title {
-  line-heigh: 0.8rem;
+  line-height: 0.6 rem;
   font-size: 0.32rem;
   padding: 0 0.2rem;
 }

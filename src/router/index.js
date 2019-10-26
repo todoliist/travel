@@ -17,7 +17,7 @@ export default new Router({
       component: () => import('@/pages/cities/Cities')
     },
     {
-      path: '/detail/:id',
+      path: '/:city/:id',
       name: 'Detail',
       component: () => import('@/pages/detail/Detail')
     }

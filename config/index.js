@@ -15,7 +15,13 @@ module.exports = {
       '/api': {
         target:"http://localhost:8080",
         pathRewrite: {
+          // mapping /api--/static/mock
           '^/api': '/static/mock'
+
+          // if data is stored in local server(port:80), like xampp, need to replace above config with: 
+          // target:"http://localhost:80",
+          // pathRewrite: {
+          //   '^/api': '/api' (don't need this line)
         }
       }
     },
@@ -31,7 +37,7 @@ module.exports = {
     // Use Eslint Loader?
     // If true, your code will be linted during bundling and
     // linting errors and warnings will be shown in the console.
-    useEslint: true,
+    useEslint: false,
     // If true, eslint errors and warnings will also be shown in the error overlay
     // in the browser.
     showEslintErrorsInOverlay: false,
